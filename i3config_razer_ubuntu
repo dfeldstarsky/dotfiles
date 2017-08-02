@@ -3,6 +3,9 @@
 
 # set mod to Win key
 set $mod Mod4
+exec --no-startup-id vmware-user-suid-wrapper
+
+
 
 
 ############ Look and Feel  ################################
