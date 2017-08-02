@@ -1,10 +1,37 @@
 Host lizzie
-	HostName 192.168.50.2
-	User starsky
-Host buster
-	HostName 192.168.52.2
-	User starsky
-Host rocket
-	HostName 192.168.51.2
-	User starsky
+    HostName 192.168.50.2
+    User starsky
+    ForwardAgent yes
+    ForwardX11 yes
 
+Host buster
+    HostName 192.168.52.2
+    User starsky
+    ForwardAgent yes
+    ForwardX11 yes
+
+Host rocket
+    HostName 192.168.51.2
+    User starsky
+    ForwardAgent yes
+    ForwardX11 yes
+
+Host crunchex 
+    HostName 192.168.100.2
+    User starsky
+    ForwardAgent yes
+    ForwardX11 yes
+
+Host crunchexfl
+    HostName 192.168.101.2
+    User starsky
+    ForwardAgent yes
+    ForwardX11 yes
+
+Host starship
+    HostName starship.local
+    User dan
+    ForwardAgent yes
+    ForwardX11 yes
+
+    
