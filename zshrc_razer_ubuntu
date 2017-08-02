@@ -98,3 +98,4 @@ source /home/dfeld/ros_workspace/devel/setup.zsh
 alias gap='git add -p '
 
 alias zshrc='subl ~/.zshrc'
+alias pych_l='cd ~/Downloads/pycharm-community-2017.1.5/bin && ./pycharm.sh &'
