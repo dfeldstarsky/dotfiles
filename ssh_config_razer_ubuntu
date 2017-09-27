@@ -17,21 +17,40 @@ Host rocket
     ForwardX11 yes
 
 Host crunchex 
-    HostName 192.168.100.2
+    HostName 192.168.100.12
     User starsky
     ForwardAgent yes
     ForwardX11 yes
 
 Host crunchexfl
-    HostName 192.168.101.2
+    HostName 192.168.101.12
     User starsky
     ForwardAgent yes
     ForwardX11 yes
 
 Host starship
-    HostName starship.local
+    HostName starship.starsky.io
     User dan
     ForwardAgent yes
     ForwardX11 yes
 
     
+Host HILary
+    HostName 192.168.100.124
+    User starsky
+    ForwardAgent yes
+    ForwardX11 yes
+
+Host megagpu-lizzie 
+    HostName 192.168.50.4
+    User starsky
+    ForwardAgent yes
+    ForwardX11 yes
+
+Host megagpu-buster
+    HostName 192.168.52.4
+    User starsky
+    ForwardAgent yes
+    ForwardX11 yes
+
+

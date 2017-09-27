@@ -51,7 +51,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,14 +86,16 @@ source $ZSH/oh-my-zsh.sh
 #
 #
 
-#alias lmst='. ~/bin/local_master.sh'
-#alias rmst='. ~/bin/master.sh'
+alias lmst='. ~/bin/local_master.sh'
+alias lizzie_mst='. ~/bin/lizzie_master.sh'
 
 
 #source /home/dan/bin/local_master.sh
 
 source /opt/ros/kinetic/setup.zsh
 source /home/dfeld/ros_workspace/devel/setup.zsh
+
+alias gitm='git commit -m'
 
 alias gap='git add -p '
 

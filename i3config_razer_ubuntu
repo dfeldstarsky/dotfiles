@@ -239,12 +239,14 @@ bindsym XF86AudioPrev exec cmus-remote -r
 
 set $filemanager nemo --no-desktop
 set $browser google-chrome
+#set $file-manager nautilus --no-desktop
 # set $terminal terminator
 
 # favorite programs
 bindsym $mod+z exec $browser
 bindsym $mod+x exec $filemanager
 bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+n exec $file-explorer
 
 # App Bindings
 #assign [instance="^crx_nckgahadagoaajjgafhacjanaoiihapd$"] hangouts
@@ -271,3 +273,4 @@ exec xbindkeys
 ### user apps
 exec $browser
 exec $terminal
+
